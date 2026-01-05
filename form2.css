@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(231, 198, 198);
+    padding: 30px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.Previous {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+form {
+    width: 1200px;
+    height: 890px;
+    padding: 30px;
+    box-shadow: -5px 5px 12px black;
+    font-size: 18px;
+}
+
+.div-1 {
+    margin: 20px 0;
+
+}
+
+.div-1 label {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.div-1 input {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.div-2 label {
+    display: block;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+
+.div-2 textarea {
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.div-2 select {
+    padding: 10px 20px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.submit {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+}

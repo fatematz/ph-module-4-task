@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>table</title>
+        <link rel="stylesheet" href="">
+
+        <style>
+            main {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 70vh;
+            }
+
+            .container{
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            header {
+                background-color: rgb(231, 198, 198);
+                padding: 30px;
+                margin-bottom: 20px;
+            }
+
+            .head {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            nav ul {
+                display: flex;
+                gap: 30px;
+
+            }
+
+            nav ul li {
+                list-style: none;
+
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                cursor: pointer;
+                background-color: black;
+                padding: 5px 10px;
+                border-radius: 20px;
+            }
+
+            table {
+                border: 1px solid black;
+                margin-bottom: 40px;
+            }
+
+            caption {
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+
+            td,
+            th {
+                border: 1px solid black;
+                width: 200px;
+                height: 50px;
+                font-size: 20px;
+                background-color: red;
+            }
+
+            .green th {
+                background-color: lightcoral;
+            }
+
+            .ligh-green td {
+                background-color: lightgreen;
+            }
+
+            .lightcyan td {
+                background-color: lightcyan;
+            }
+
+            .lightsalmon td {
+                background-color: rgb(230, 143, 108);
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+            <div class="head">
+                <div class="flex">
+                    <h1>Table Tennis Tournament</h1>
+                </div>
+
+                <div class="flex">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">form1</a></li>
+                            <li><a href="form2.html">form2</a></li>
+                            <li><a href="cards.html">cards</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            </div>
+        </header>
+
+        <main>
+
+            <section>
+                <div>
+                    <table>
+                        <caption>Tournament Schedule and Results</caption>
+                        <thead>
+                            <tr class="green">
+                                <th>Round1</th>
+                                <th>Player A</th>
+                                <th>Player b</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr class="ligh-green">
+                                <td>Match1</td>
+                                <td>John</td>
+                                <td>Alice</td>
+                            </tr>
+
+                            <tr class="ligh-green">
+                                <td>Match2</td>
+                                <td>Mark</td>
+                                <td>Sarah</td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+
+                        </tfoot>
+
+                    </table>
+                </div>
+
+                <div>
+                    <table>
+                        <thead>
+                            <tr class="green">
+                                <th>Round2</th>
+                                <th>Player C</th>
+                                <th>Player D</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr class="lightcyan">
+                                <td>Match3</td>
+                                <td>TBD</td>
+                                <td>TBD</td>
+                            </tr>
+
+                            <tr class="lightcyan">
+                                <td>Match4</td>
+                                <td>TBD</td>
+                                <td>TBD</td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+
+                        </tfoot>
+
+                    </table>
+                </div>
+
+
+                <div>
+                    <table>
+                        <thead>
+                            <tr class="green">
+                                <th>Final</th>
+                                <th>Winner of Match 3 E</th>
+                                <th>Winner of Mathch 4</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr class="lightsalmon">
+                                <td>Champion</td>
+                                <td>TBD</td>
+                                <td>TBD</td>
+                            </tr>
+
+
+                        </tbody>
+
+                        <tfoot>
+
+                        </tfoot>
+
+                    </table>
+                </div>
+
+
+            </section>
+
+        </main>
+
+        <footer></footer>
+    </body>
+
+</html>

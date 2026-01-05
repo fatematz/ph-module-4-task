@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FORM</title>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            header {
+                background-color: rgb(231, 198, 198);
+                padding: 30px;
+            }
+
+            .head {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            nav ul {
+                display: flex;
+                gap: 30px;
+
+            }
+
+            nav ul li {
+                list-style: none;
+
+            }
+
+            nav ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                cursor: pointer;
+                background-color: black;
+                padding: 5px 10px;
+                border-radius: 20px;
+            }
+
+            main {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+
+            form {
+                width: 500px;
+                /* border: 1px solid black; */
+                box-shadow: -5px 5px 12px black;
+                padding: 30px;
+            }
+
+            .form-div-1 {
+                border-top: 1px solid black;
+                border-bottom: 1px solid black;
+                padding: 10px;
+            }
+
+            img {
+                display: block;
+            }
+
+            .form-div-2 legend {
+                margin-top: 20px
+            }
+
+            .form-div-2 label {
+                display: block;
+                margin-top: 15px;
+            }
+
+            textarea {
+                display: block;
+            }
+
+            input[type="reset"] {
+                margin-top: 20px;
+            }
+
+            button {
+                margin-left: 10px;
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div class="head">
+                    <div class="flex">
+                        <h1>Table Tennis Tournament</h1>
+                    </div>
+
+                    <div class="flex">
+                        <nav>
+                            <ul>
+                                <li><a href="form2.html">form2</a></li>
+                                <li><a href="table.html">table</a></li>
+                                <li><a href="cards.html">cards</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <form>
+                    <div class="form-div-1">
+                        <label for="search">Search Your Image Here: </label>
+                        <input type="search" id="search">
+                        <button>search</button>
+
+                        <img src="assets/images/panda.png" alt="">
+
+                        <a href="">For more click here</a>
+                    </div>
+
+                    <div class="form-div-2">
+                        <legend>Feedback From:</legend>
+
+                        <label for="name">Name:</label>
+                        <input type="text" id="name">
+
+                        <label for="date">Date:</label>
+                        <input type="date" id="date">
+
+                        <label for="comment">Comment:</label>
+                        <textarea cols="50" rows="5" name="" id="comment"></textarea>
+
+                        <input type="reset">
+                        <a href="form2.html">
+                            <button type="button">next Page</button>
+                        </a>
+                    </div>
+
+                </form>
+            </section>
+        </main>
+
+        <footer>
+
+        </footer>
+    </body>
+
+</html>
